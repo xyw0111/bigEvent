@@ -43,7 +43,8 @@ $(function () {
           width: 100,
           height: 100
         })
-        .toDataURL('image/png')
+            .toDataURL('image/png')
+        // console.log(dataURL);
         //ajax
         $.ajax({
             type: 'POST',
